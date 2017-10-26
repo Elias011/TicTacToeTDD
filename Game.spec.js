@@ -8,38 +8,90 @@ const BoardEmpty = [`
  ---
 `];
 
-const BoardPlayerOneWins = [`
- x--
- -x-
- --x
-`]; 
+const BoardPlayerOneWins = [
+	`
+x--
+-x-
+--x
+`,
+	`
+--x
+-x-
+x--
+`,
+	`
+x--
+x--
+x--
+`,
+	`
+-x-
+-x-
+-x-
+`,
+	`
+--x
+--x
+--x
+`,
+	`
+xxx
+---
+---
+`,
+	`
+---
+xxx
+---
+`,
+	`
+---
+---
+xxx
+`
+]; 
 
 const BoardPlayerTwoWins = [
-    `
-        --o
-        -o-
-        o--
-    `,
-    `
-       ooo
-       ---
-       ---
-    `,
-    `
-       ---
-       ooo
-       ---
-    `,
-    `
-       ---
-       ---
-       ooo
-    `,
-    `
-       o--
-       -o-
-       --o
-    `
+ 	`
+o--
+-o-
+--o
+`,
+	`
+--o
+-o-
+o--
+`,
+	`
+o--
+o--
+o--
+`,
+	`
+-o-
+-o-
+-o-
+`,
+	`
+--o
+--o
+--o
+`,
+	`
+ooo
+---
+---
+`,
+	`
+---
+ooo
+---
+`,
+	`
+---
+---
+ooo
+`
 ];
 
 const Game = require('./Game');
